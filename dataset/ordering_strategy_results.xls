@@ -1,0 +1,7 @@
+﻿Method,Evaluations,Best_Order,Accuracy,F1-score,Runtime (s),Composite
+Random-100,100,DT -> LR -> XGB -> RF -> SVM -> KNN -> MNB -> LGBM,0.8828,0.8872,0.3973,0.901
+Random-1000,1000,DT -> XGB -> SVM -> KNN -> MNB -> RF -> LR -> LGBM,0.8831,0.8875,0.3918,0.9024
+Random-5000,5000,DT -> XGB -> LR -> SVM -> MNB -> KNN -> RF -> LGBM,0.8831,0.8875,0.3909,0.9025
+Greedy,36,XGB -> LGBM -> DT -> RF -> LR -> SVM -> MNB -> KNN,0.8775,0.8816,0.6022,0.8559
+Genetic Alg.,5000,DT -> XGB -> LR -> SVM -> KNN -> RF -> MNB -> LGBM,0.8831,0.8875,0.3901,0.9027
+Exhaustive,40320,DT -> XGB -> LR -> SVM -> KNN -> RF -> MNB -> LGBM,0.8831,0.8875,0.3901,0.9027

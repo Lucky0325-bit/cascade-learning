@@ -1,0 +1,7 @@
+﻿Method,Accuracy,F1-score,Runtime (s),Exit Rate
+Parallel Voting,0.8856,0.8892,1.473583,--
+Stacking,0.8975,0.9003,1.443986,--
+Fixed Cascade,0.8828,0.8861,0.598656,0.8182
+Dynamic Selection,0.8833,0.8869,0.671196,--
+Early-exit Neural,0.8813,0.8841,0.020536,0.7656
+CascadeChain,0.8907,0.8939,0.850771,0.8182
